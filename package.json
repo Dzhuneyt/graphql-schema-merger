@@ -1,0 +1,32 @@
+{
+  "name": "graphql-schema-merger",
+  "version": "1.0.0",
+  "description": "Utility tool for merging multiple GraphQL schemas from multiple modules into a single schema.graphql file",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node ./src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dzhuneyt/graphql-schema-merger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dzhuneyt/graphql-schema-merger/issues"
+  },
+  "homepage": "https://github.com/Dzhuneyt/graphql-schema-merger#readme",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^6.1.0",
+    "glob": "^7.1.6",
+    "graphql": "^14.6.0",
+    "merge-graphql-schemas": "^1.7.6",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.6"
+  }
+}
