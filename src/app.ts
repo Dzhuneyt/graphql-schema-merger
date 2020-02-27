@@ -26,7 +26,6 @@ class GraphQLMerger {
             }
         ];
         const argv = commandLineArgs(optionDefinitions);
-        console.log(argv);
 
         if (!argv.src || !argv.src) {
             // Required parameter not provided
