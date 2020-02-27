@@ -18,3 +18,12 @@ Clone the repo
 Run the script
     
     npm start -- --src=/path/to/project/**/*.graphql --outDir=/path/to/project/schema.graphql
+    
+    
+   
+### Build status 
+![How it works](https://github.com/Dzhuneyt/graphql-schema-merger/workflows/Test/badge.svg)
+
+
+### License
+MIT
