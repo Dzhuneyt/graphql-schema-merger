@@ -22,6 +22,9 @@ jobs:
       with:
         # A directory to store and save the cache
         path: ./node_modules
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
     - run: npm install
     - run: npm run start -- --src=./tests/merge-multiple/modules/**/*.graphql --outDir=./tests/merge-multiple/_generated_schema.graphql
       env:
