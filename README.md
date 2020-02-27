@@ -1,5 +1,7 @@
 # GraphQL schema file merger
 
+![How it works](./assets/how_it_works.jpg)
+
 An utility tool for merging multiple GraphQL schemas into one single file.
 
 Helps to accomplish modularized GraphQL schemas and better reusability.
